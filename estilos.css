@@ -1,0 +1,42 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 1;
+}
+
+nav ul li {
+    display: inline;
+    margin:  15px;
+}
+
+nav ul li a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #8964df;
+    border-radius: 5px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
