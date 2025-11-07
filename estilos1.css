@@ -1,0 +1,32 @@
+/* Diseño para los botones */
+.boton {
+    display: inline-block;
+    background: linear-gradient(45deg, #6fa3ef, #8c29a5); /* Gradiente azul */
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.5s ease; /* Animación de transición */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.boton:hover {
+    background: linear-gradient(45deg, #4b89d1, #007009); /* Invertir el gradiente */
+    transform: translateY(-4px); /* Movimiento hacia arriba */
+    box-shadow: 0 6px 12px rgba(255, 0, 0, 0.2); /* Aumentar la sombra */
+}
+th, td {
+    padding: 12px 20px;
+    border: 2px solid #ddd; /* Agrega un borde alrededor de las celdas */
+    text-align: center;
+}
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 90px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+}
